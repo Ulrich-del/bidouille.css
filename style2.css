@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Oswald:wght@200..700&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Oswald:wght@200..700&family=Rubik+Wet+Paint&display=swap');
+</style>
+
+
+section{
+    background-color: aqua;
+    height: 100vh;
+    width: 50%;
+    margin: auto;
+}
+
+    .bgpurple p{ 
+        font-family: "Itim", cursive;
+        font-size: 80px;
+    }
+    .bgpurple {
+        font-family: "Rubik Wet Paint", system-ui;
+        font-size: 80px;
+        background-color: purple;
+    }
+    .bgyellow{
+        background-color: yellow;
+    }
+    bggreen{
+    background-color: green;
+    }
+    .box{
+        width: 200px;
+        height: 200px;
+        background-color: blueviolet;
+        display:inline-block;
+    }
+
+
+    .Bouton{
+        display: block;
+        text-decoration: none;
+        width: fit-content;
+        margin-bottom: 12px;
+        padding: 16px 32px;
+        /* background-color: red; */
+    }
+
+    .interbold{
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        background-color: chartreuse;
+}
+
+.interregular{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: inherit;
+    background-color: blue;
+}
+
+.bordureSolid{
+    border: 1px solid black;
+}
+
+.bordurePointille{
+    border: 5px dashed black;
+}
+
+.bordureArrondi{
+    border-radius: 32px ;
+}
+
+.bordureSpecial{
+    border-radius: 0px 32px ;
+
+}
+
+.bordureArrondi2{
+    border-radius: 32px;
+    background-color: cadetblue;
+
+}
+.encadrement{
+    border: 1px solid black;
+    width: 25%;
+    box-shadow: none;
+}
