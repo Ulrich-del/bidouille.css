@@ -80,7 +80,13 @@ section{
 
 }
 .encadrement{
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.009);
     width: 25%;
-    box-shadow: none;
+    box-shadow: 4px 4px 12px;
+    border-radius: 16px;
+    padding: 8px;
+}
+
+.encadrement .Bouton{
+    margin-bottom: 0%;
 }
